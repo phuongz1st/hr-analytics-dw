@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DW_CUBE_HR</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>wrlgorT/QqNCExXD2MbilS4NC6s=11/04/2026 4:39:11 SA11/04/2026 4:39:11 SA</TimeStamp>
+        <ID>
+          <String>DW HR Analytics 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>g6WUJO+EtKNWtot0x1YU9n8E29Y=11/04/2026 4:47:33 SA11/04/2026 4:41:02 SA</TimeStamp>
+        <ID>
+          <String>DW HR Analytics 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lDKoKQwl/dLkna2syGvWl37Gv4o=11/04/2026 3:48:12 CH11/04/2026 4:47:33 SA</TimeStamp>
+        <ID>
+          <String>Dim Department</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ykDriV+r4LTR4GFZ8qLCGxJWFGY=11/04/2026 3:49:28 CH11/04/2026 4:47:33 SA</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>km4VTWBTtFSovGqLeiSVzR5ujMI=11/04/2026 4:26:52 CH11/04/2026 4:47:33 SA</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>X1+iPOV5sJNL+YbeCwZATd8KjoQ=11/04/2026 3:49:28 CH11/04/2026 10:58:37 SA</TimeStamp>
+        <ID>
+          <String>Dim Job Role</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rGZQdsRknHlIXFtbirOSxB6gcaE=11/04/2026 3:49:28 CH11/04/2026 11:02:48 SA</TimeStamp>
+        <ID>
+          <String>Dim Work Arrangement</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>kYbg1W8P9+QQBbF1JouOzMkSB1Q=11/04/2026 3:49:28 CH11/04/2026 4:47:33 SAqhf2X3cO4RVWmLcGPLJxRG3sYuM=11/04/2026 4:47:33 SA11/04/2026 4:47:33 SA</TimeStamp>
+        <ID>
+          <String>DW HR Analytics 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>YiLBXBKyOI3czfK3K1EUxTfhUZg=11/04/2026 10:00:49 CH11/04/2026 11:01:07 SA+lBhHxuNxqrlpx+Gw70HFEy+Sk8=11/04/2026 11:01:08 SA11/04/2026 11:01:07 SA</TimeStamp>
+        <ID>
+          <String>Cube_Payroll_Retention</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>n/BTqz7ICxDa9EvUc4GivfPCC4E=12/04/2026 12:00:18 SA11/04/2026 11:03:33 SAquhHQWP9305Vl5kzieKvXUTJup8=11/04/2026 11:03:33 SA11/04/2026 11:03:33 SA</TimeStamp>
+        <ID>
+          <String>Cube_Performance_Tracking</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>BXDMlyEy30G3UBWdWr6syNP/5zM=11/04/2026 4:35:04 SA11/04/2026 4:35:04 SA</TimeStamp>
+      <ID>
+        <String>DW_CUBE_HR</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-04-11T17:00:24.206667Z</LastDeployed>
+</DeploymentSnapshot>

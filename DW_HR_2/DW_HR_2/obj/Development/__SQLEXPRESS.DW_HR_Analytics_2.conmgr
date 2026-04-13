@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="__SQLEXPRESS.DW_HR_Analytics_2"
+  DTS:DTSID="{BAFEDC45-756D-4DB5-B01F-FCFA684D9C5D}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.\SQLEXPRESS;User ID=;Initial Catalog=DW_HR_Analytics_2;Provider=MSOLEDBSQL19.1;Persist Security Info=False;Integrated Security=SSPI;Initial File Name=;Trust Server Certificate=True;Server SPN=;Authentication=;Access Token=;Host Name In Certificate=;Server Certificate=;Application Name=SSIS-DW_HR_2-{BAFEDC45-756D-4DB5-B01F-FCFA684D9C5D}.\SQLEXPRESS.DW_HR_Analytics_2;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

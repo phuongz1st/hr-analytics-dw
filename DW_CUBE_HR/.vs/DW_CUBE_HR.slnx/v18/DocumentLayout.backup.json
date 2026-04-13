@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Cube_Performance_Tracking.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|solutionrelative:DW_CUBE_HR\\Cube_Performance_Tracking.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|solutionrelative:DW_CUBE_HR\\Dim Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Cube_Payroll_Retention.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|solutionrelative:DW_CUBE_HR\\Cube_Payroll_Retention.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|solutionrelative:DW_CUBE_HR\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Work Arrangement.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|solutionrelative:DW_CUBE_HR\\Dim Work Arrangement.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Department.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|solutionrelative:DW_CUBE_HR\\Dim Department.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Job Role.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|solutionrelative:DW_CUBE_HR\\Dim Job Role.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Time_Hirachi.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E8045043-F7D3-9BA8-BABC-3053D160744B}|DW_CUBE_HR\\DW_CUBE_HR.dwproj|solutionrelative:DW_CUBE_HR\\Time_Hirachi.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Employee.dim [Design]",
+              "DocumentMoniker": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Employee.dim",
+              "RelativeDocumentMoniker": "DW_CUBE_HR\\Dim Employee.dim",
+              "ToolTip": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Employee.dim [Design]",
+              "RelativeToolTip": "DW_CUBE_HR\\Dim Employee.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T04:37:57.147Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Date.dim",
+              "RelativeDocumentMoniker": "DW_CUBE_HR\\Dim Date.dim",
+              "ToolTip": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Date.dim [Design]",
+              "RelativeToolTip": "DW_CUBE_HR\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-10T21:48:12.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cube_Performance_Tracking.cube [Design]",
+              "DocumentMoniker": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Cube_Performance_Tracking.cube",
+              "RelativeDocumentMoniker": "DW_CUBE_HR\\Cube_Performance_Tracking.cube",
+              "ToolTip": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Cube_Performance_Tracking.cube [Design]",
+              "RelativeToolTip": "DW_CUBE_HR\\Cube_Performance_Tracking.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T06:06:34.696Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cube_Payroll_Retention.cube [Design]",
+              "DocumentMoniker": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Cube_Payroll_Retention.cube",
+              "RelativeDocumentMoniker": "DW_CUBE_HR\\Cube_Payroll_Retention.cube",
+              "ToolTip": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Cube_Payroll_Retention.cube [Design]",
+              "RelativeToolTip": "DW_CUBE_HR\\Cube_Payroll_Retention.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T09:17:09.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Work Arrangement.dim",
+              "DocumentMoniker": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Work Arrangement.dim",
+              "RelativeDocumentMoniker": "DW_CUBE_HR\\Dim Work Arrangement.dim",
+              "ToolTip": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Work Arrangement.dim",
+              "RelativeToolTip": "DW_CUBE_HR\\Dim Work Arrangement.dim",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T08:49:15.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Department.dim",
+              "DocumentMoniker": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Department.dim",
+              "RelativeDocumentMoniker": "DW_CUBE_HR\\Dim Department.dim",
+              "ToolTip": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Department.dim",
+              "RelativeToolTip": "DW_CUBE_HR\\Dim Department.dim",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T08:47:45.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dim Job Role.dim",
+              "DocumentMoniker": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Job Role.dim",
+              "RelativeDocumentMoniker": "DW_CUBE_HR\\Dim Job Role.dim",
+              "ToolTip": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Dim Job Role.dim",
+              "RelativeToolTip": "DW_CUBE_HR\\Dim Job Role.dim",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T03:58:37.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Time_Hirachi.cube",
+              "DocumentMoniker": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Time_Hirachi.cube",
+              "RelativeDocumentMoniker": "DW_CUBE_HR\\Time_Hirachi.cube",
+              "ToolTip": "C:\\Data WareHouse\\SSIS\\DW_CUBE_HR\\DW_CUBE_HR\\Time_Hirachi.cube",
+              "RelativeToolTip": "DW_CUBE_HR\\Time_Hirachi.cube",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-10T21:47:33.954Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

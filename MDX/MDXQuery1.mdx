@@ -1,0 +1,50 @@
+--Câu 1: Truy vấn tổng hợp 
+--Mục đích: Thống kê quỹ lương trung bình hiện tại 
+--của từng phòng ban để đánh giá mức độ phân bổ ngân sách nhân sự.
+SELECT 
+    {[Measures].[Avg_Salary]} ON COLUMNS,
+    NON EMPTY {[Dim Department].[Department Name].Members} ON ROWS
+FROM [Cube_Payroll_Retention]
+
+
+--Câu 2: Truy vấn xu hướng theo thời gian 
+--Mục đích: Theo dõi xu hướng biến động tổng quỹ lương (Monthly Salary)
+--qua các năm để lập kế hoạch ngân sách.
+SELECT 
+    {[Measures].[Monthly Salary]} ON COLUMNS,
+    NON EMPTY {[Dim Date].[Time_Hierarchy].[Year].Members} ON ROWS
+FROM [Cube_Payroll_Retention]
+
+--Câu 3: Truy vấn Top-N
+--Mục đích: Tìm ra Top 3 phòng ban có số lượt nhân viên được thăng chức (Promotions) 
+--cao nhất để tuyên dương.
+SELECT 
+    {[Measures].[Promotions]} ON COLUMNS,
+    TopCount(
+        [Dim Department].[Department Name].Members, 
+        4, 
+        [Measures].[Promotions]
+    ) ON ROWS
+FROM [Cube_Payroll_Retention]
+
+--Câu 4: Truy vấn kết hợp đa chiều (Crossjoin)
+--Mục đích: Phân tích chéo mức lương trung bình (Avg_Salary) 
+--theo từng Phòng ban và từng Năm.
+SELECT 
+    {[Measures].[Avg_Salary]} ON COLUMNS,
+    NON EMPTY Crossjoin(
+        [Dim Department].[Department Name].Members, 
+        [Dim Date].[Time_Hierarchy].[Year].Members
+    ) ON ROWS
+FROM [Cube_Payroll_Retention]
+
+--Câu 5: Truy vấn sử dụng hàm điều kiện (Filter)
+--Mục đích: Danh sách nhân viên có điểm hiệu suất (Performance Rating) tối đa 
+--(ví dụ mức 4 hoặc 5) để thực hiện chính sách khen thưởng cuối năm.
+SELECT 
+    { [Measures].[Avg_Performance], [Measures].[Avg_Overtime] } ON COLUMNS,
+    Filter(
+        [Dim Employee].[Employee ID].Members, 
+        [Measures].[Avg_Performance] >= 4
+    ) ON ROWS
+FROM [Cube_Performance_Tracking]
