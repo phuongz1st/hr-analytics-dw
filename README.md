@@ -35,7 +35,7 @@ submission/
 │   ├── Employee_Demographics.csv       ← Dữ liệu nhân khẩu học (100.000 bản ghi)
 │   └── Employee_Performance.csv        ← Dữ liệu hiệu suất (100.000 bản ghi)
 │
-├── Bảng phân công.docx                 ← Bảng phân công
+├
 │               
 │
 ├── mdx/
@@ -49,7 +49,7 @@ submission/
 │
 └── README.md                           ← File này
 │
-└── file báo cáo   
+└── report_vietnamese                   ← file report  
 ```
 
 ---
