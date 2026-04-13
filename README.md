@@ -1,14 +1,7 @@
 # README – Hướng Dẫn Cài Đặt và Chạy Hệ Thống
 
 ## Đề Tài: Xây Dựng Data Warehouse Quản Lý Nhân Sự và Đánh Giá KPI Nhân Viên
-
-**Học phần:** CMP1062 – Kho Dữ Liệu và Xử Lý Phân Tích Trực Tuyến  
-**Nhóm:** Lớp 22DKHA1  
-**Thành viên:**
-- 2286400013 – Trần Tuấn Kiệt
 - 2286400025 – Nguyễn Đông Phương
-- 2286400886 – Trần Trọng Thành
-- 2286400035 – Nguyễn Minh Thông
 
 ---
 
