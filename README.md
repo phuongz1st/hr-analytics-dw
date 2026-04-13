@@ -344,9 +344,9 @@ SELECT
 
 ## Liên Hệ
 
-Nếu gặp lỗi khi cài đặt, liên hệ nhóm qua email sinh viên HUTECH:
+Nếu gặp lỗi khi cài đặt, liên hệ tôi qua email:
 - nguyendongphuong741@gmail.com (Nguyễn Đông Phương)
 
 ---
 
-*Tài liệu này được tạo phục vụ mục đích nộp bài tiểu luận cuối kỳ môn CMP1062.*
+
