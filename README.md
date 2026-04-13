@@ -5,7 +5,7 @@
 
 ---
 
-## Cấu Trúc Thư Mục Nộp Bài
+## Cấu Trúc Thư Mục 
 
 ```
 submission/
